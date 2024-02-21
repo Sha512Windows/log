@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "Wetland" && password === "caleb") {
         alert("You have successfully logged in.");
-        window.top.location.href = 'http://MTBnoahiscool';
+        window.top.location.href = 'http://MTBnoahiscool.github.io';
 
     } else {
         loginErrorMsg.style.opacity = 1;
