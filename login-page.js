@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
+    if (username === "Wetland" && password === "caleb") {
         alert("You have successfully logged in.");
         parent.window.location = 'MTBnoahiscool.github.io';
 location. href
