@@ -1,17 +1,1 @@
-const loginForm = document.getElementById("login-form");
-const loginButton = document.getElementById("login-form-submit");
-const loginErrorMsg = document.getElementById("login-error-msg");
-
-loginButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    const username = loginForm.username.value;
-    const password = loginForm.password.value;
-
-    if (username === "Wetland" && password === "caleb") {
-        alert("You have successfully logged in.");
-        window.top.location.href = 'https://UC7D4XLWI2N8BvrDCFbZB6oA.gitub.io';
-
-    } else {
-        loginErrorMsg.style.opacity = 1;
-    }
-})
+function _0x2043(_0x4daa99,_0xba04af){const _0x471aed=_0x471a();return _0x2043=function(_0x20432d,_0x1694f2){_0x20432d=_0x20432d-0x1b5;let _0x4f804c=_0x471aed[_0x20432d];return _0x4f804c;},_0x2043(_0x4daa99,_0xba04af);}const _0x12798f=_0x2043;(function(_0x445037,_0xf8eea3){const _0x248591=_0x2043,_0x47987c=_0x445037();while(!![]){try{const _0x34737a=-parseInt(_0x248591(0x1c6))/0x1*(parseInt(_0x248591(0x1b9))/0x2)+-parseInt(_0x248591(0x1c8))/0x3+parseInt(_0x248591(0x1bf))/0x4*(parseInt(_0x248591(0x1bd))/0x5)+parseInt(_0x248591(0x1c1))/0x6+-parseInt(_0x248591(0x1be))/0x7*(-parseInt(_0x248591(0x1c5))/0x8)+-parseInt(_0x248591(0x1b7))/0x9*(-parseInt(_0x248591(0x1b5))/0xa)+parseInt(_0x248591(0x1ba))/0xb*(-parseInt(_0x248591(0x1cc))/0xc);if(_0x34737a===_0xf8eea3)break;else _0x47987c['push'](_0x47987c['shift']());}catch(_0x8208a2){_0x47987c['push'](_0x47987c['shift']());}}}(_0x471a,0xb2a95));const loginForm=document['getElementById']('login-form'),loginButton=document[_0x12798f(0x1c2)]('login-form-submit'),loginErrorMsg=document['getElementById'](_0x12798f(0x1ca));loginButton[_0x12798f(0x1cd)](_0x12798f(0x1c4),_0x54cd07=>{const _0x53ebe8=_0x12798f;_0x54cd07[_0x53ebe8(0x1cb)]();const _0x5aa5d6=loginForm[_0x53ebe8(0x1c7)]['value'],_0x3b907e=loginForm['password'][_0x53ebe8(0x1c9)];_0x5aa5d6==='Wetland'&&_0x3b907e===_0x53ebe8(0x1b6)?(alert(_0x53ebe8(0x1c3)),window[_0x53ebe8(0x1bb)][_0x53ebe8(0x1c0)][_0x53ebe8(0x1b8)]=_0x53ebe8(0x1bc)):loginErrorMsg['style']['opacity']=0x1;});function _0x471a(){const _0x66e45e=['top','https://UC7D4XLWI2N8BvrDCFbZB6oA.gitub.io','1740XQscNM','63FuPGnG','3968yPMLcZ','location','2142306VdHaTE','getElementById','You\x20have\x20successfully\x20logged\x20in.','click','506888GapxvO','1lBjPIf','username','679761GRxzMn','value','login-error-msg','preventDefault','32628WSMnoi','addEventListener','790MonmGd','caleb','143100VacNHI','href','2286698ObeJoH','1727XELcqg'];_0x471a=function(){return _0x66e45e;};return _0x471a();}
